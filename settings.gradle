@@ -1,0 +1,19 @@
+include ':app'
+rootProject.name = "MotionLayoutWithRecyclerView"
+
+//// for 2.1.x
+//include ':core'
+//project(':core').projectDir = new File(rootDir, '../constraintlayout/constraintlayout/core')
+//
+////// for 2.0.x
+////include ':solver'
+////project(':solver').projectDir = new File(rootDir, '../constraintlayout/constraintlayout/solver')
+//
+//include ':constraintlayout'
+//project(':constraintlayout').projectDir = new File(rootDir, '../constraintlayout/constraintlayout/constraintlayout')
+
+
+//File externalRoot = new File(rootDir, '../external')
+//File externalRoot = new File("$System.env.DOCLAVA_PREBUILTS")
+//include ':doclava'
+//project(':doclava').projectDir = new File(externalRoot, 'doclava')
